@@ -1,0 +1,188 @@
+/***** BASE STYLES *****/
+
+header,
+footer, 
+section{
+   overflow: auto;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black;
+}
+
+#hjem, #værelser, #priser {
+    height: auto;
+}
+
+p {
+    line-height: 150%;
+}
+
+/***** GRID ****/
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 40%;
+}
+
+main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/***** HEADER *****/
+
+header {
+    text-align: center;
+    height: 400px;
+    background-color: #D0D5D9;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 50px 0 0 0;
+}
+
+.vangbergs {
+    font-size: 90px;
+}
+
+.bb {
+    font-size: 50px;
+}
+
+nav ul {
+    padding: 0; /* Remove the default padding. */
+    list-style: none;
+    /* I want everything inside the nav bar centered, thus: */
+    display: inline-block;
+  }
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    color: #87BBA2;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px;
+}
+
+/**** HJEM *****/
+
+#hjem h2 {
+    text-transform: uppercase;
+    color:  #87BBA2;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+#flex-hjem {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3% 3%;
+}
+
+#hjem {
+    border-bottom: 2px solid #D0D5D9;
+}
+
+/***** VÆRELSER *****/
+
+#værelser h2 {
+    text-transform: uppercase;
+    color:  #87BBA2;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+#flex-værelser {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3% 3%;
+}
+
+#værelser {
+    border-bottom: 2px solid #D0D5D9;
+}
+
+/**** PRISER *****/
+#priser h2 {
+    text-transform: uppercase;
+    color:  #87BBA2;
+    text-align: center;
+    padding: 40px 0 30px 0;
+}
+
+#p-two {
+    float: left;
+    width: 30%;
+    padding: 0 20 30px 0;
+    margin: 0 50px 50px 50px;
+    border: 2px solid black;
+}
+
+#flex-priser {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#p-two p {
+    padding: 20px 0 0 20px;
+}
+
+#priser {
+    border-bottom: 2px solid #D0D5D9;
+}
+
+/***** KONTAKT *****/
+
+#kontakt h2 {
+    text-transform: uppercase;
+    color:  #87BBA2;
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+#flex-kontakt {
+    display: flex;
+    text-align: left;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 3% 3%;
+}
+
+#marianne {
+    border: 1px solid black;
+    img align: middle;
+    max-width: 50%;
+    height: auto;
+    margin: 20px;
+}
+
+#kontakt {
+    border-bottom: 2px solid #D0D5D9;
+}
+
+/***** ADRESSE *****/
+
+#adresse p {
+    text-transform: uppercase;
+    color:  #87BBA2;
+    text-align: center;
+    padding: 30px;
+}
